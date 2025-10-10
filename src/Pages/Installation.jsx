@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import ProductCard from "../Components/ProductCard";
 import SkeletonLoader from "../Components/SkeletonLoader";
 import { toast } from "react-toastify";
+import InstalledAppCard from "./InstalledAppCard";
 
 const Installation = () => {
     const [installedApps, setInstalledApps] = useState([]);
@@ -15,7 +16,7 @@ const Installation = () => {
         setInstalledApps(stored);
     }, []);
 
-    
+
     useEffect(() => {
         setIsSorting(true);
 
@@ -28,7 +29,7 @@ const Installation = () => {
 
         setDisplayApps(apps);
 
-    
+
         const timer = setTimeout(() => setIsSorting(false), 200);
         return () => clearTimeout(timer);
 
@@ -43,7 +44,7 @@ const Installation = () => {
 
     return (
         <div className="max-w-[1340px] mx-auto  space-y-6 px-8 md:px-4 lg:px-0">
-            
+
             <div className="text-center pt-6 space-y-2 ">
                 <h1 className="text-3xl font-semibold pt-6">Your Installed Apps</h1>
                 <p className="text-gray-600">Explore all installed apps on your device.</p>
@@ -74,11 +75,11 @@ const Installation = () => {
             {isSorting ? (
                 <SkeletonLoader count={installedApps.length || 6} />
             ) : installedApps.length > 0 ? (
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {displayApps.map((product) => (
-                        <ProductCard
-                            key={product.id}
-                            product={product}
+                <div className="flx flex-col gap-4 space-y-3 pb-8">
+                    {displayApps.map((app) => (
+                        <InstalledAppCard
+                            key={app.id}
+                            app={app}
                             onUninstall={handleUninstall}
                         />
                     ))}
@@ -86,6 +87,7 @@ const Installation = () => {
             ) : (
                 <p className="text-center text-gray-500 mt-8">No apps installed yet.</p>
             )}
+
         </div>
     );
 };
