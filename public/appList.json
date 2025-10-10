@@ -1,0 +1,334 @@
+[  
+  
+{
+    "image": "https://i.ibb.co.com/Kx3Wbmcd/demo-app-2.webp",
+    "title": "Forest: Focus for Productivity",
+    "companyName": "OrionSoft",
+    "id": 1,
+    "description": "Forest: Focus for Productivity turns your time management into a rewarding experience. Plant a virtual tree while you focus on tasks, and watch it grow as you stay productive. Daily focus goals, smart timers, and detailed statistics help you build a strong work routine. You can even collaborate with friends to maintain shared forests for accountability. The app reduces distractions and encourages mindfulness, making it perfect for students, freelancers, and professionals. With its engaging visual design and gamified productivity approach, Forest transforms focus into a positive habit while keeping your motivation high.",
+    "size": 32,
+    "reviews": 8900,
+    "ratingAvg": 4.2,
+    "downloads": 8,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 3800 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/tphj9FQs/demo-app-1.webp",
+    "title": "FitBuddy",
+    "companyName": "HealthCore",
+    "id": 2,
+    "description": "FitBuddy is a comprehensive fitness app that acts as your personal trainer and nutrition coach. Track daily workouts, monitor calories, and follow expert-designed plans tailored to your goals. The app integrates with smartwatches and fitness trackers, giving real-time insights into your progress. It offers guided exercise videos, meal tracking, and motivational reminders to keep you on track. Personalized challenges and goal setting help maintain consistency, while visual progress reports show your achievements. Whether you're aiming to lose weight, gain muscle, or maintain an active lifestyle, FitBuddy makes fitness engaging and sustainable.",
+    "size": 64,
+    "reviews": 15600,
+    "ratingAvg": 4.6,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 4700 },
+      { "name": "5 star", "count": 9200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gMk59kjY/demo-app-5.webp",
+    "title": "MusicFlow",
+    "companyName": "SoundSphere",
+    "id": 3,
+    "description": "MusicFlow delivers an exceptional music streaming experience with millions of songs at your fingertips. Enjoy personalized playlists, mood-based mixes, and recommendations tailored to your listening habits. The app supports offline mode, high-quality audio, and curated radio stations. Discover trending artists, share your favorite tracks, and explore new genres with ease. With real-time lyrics, artist profiles, and intuitive navigation, MusicFlow makes discovering and enjoying music effortless. Perfect for casual listeners and audiophiles alike, this app creates a seamless, immersive music experience anytime, anywhere.",
+    "size": 85,
+    "reviews": 41000,
+    "ratingAvg": 4.8,
+    "downloads": 7,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 3100 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 28500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/h1fsXs4c/demo-app-4.webp",
+    "title": "NewsWave",
+    "companyName": "InfoLabs",
+    "id": 4,
+    "description": "NewsWave keeps you up-to-date with the latest news from around the world. Customize your feed by selecting topics you care about such as politics, technology, sports, and entertainment. Receive instant alerts for breaking news and save articles for later reading. The app offers a clean, distraction-free interface with offline reading mode and night mode for convenience. NewsWave provides trusted sources, curated highlights, and global coverage. It empowers you to stay informed, make smarter decisions, and engage with current events in a way that’s fast, reliable, and easy to digest.",
+    "size": 29,
+    "reviews": 5300,
+    "ratingAvg": 4.1,
+    "downloads": 6,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 1800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/v43HrFyD/demo-app-3.webp",
+    "title": "TravelGo",
+    "companyName": "JetLite",
+    "id": 5,
+    "description": "TravelGo is your all-in-one travel assistant that simplifies trip planning and bookings. Search for flights, hotels, and vacation packages with exclusive deals and discounts. Get live flight updates, local guides, and suggested itineraries based on your preferences. Explore attractions, book experiences, and manage your trips with a clean, intuitive interface. TravelGo also provides offline access, maps, and currency conversion for international travel. It is perfect for adventurers, business travelers, and families who want a smooth, well-organized travel experience. Plan, explore, and enjoy your trips effortlessly with TravelGo.",
+    "size": 52,
+    "reviews": 19200,
+    "ratingAvg": 4.3,
+    "downloads": 2,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 5500 },
+      { "name": "5 star", "count": 8300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Vc05HBdY/demo-app-6.webp",
+    "title": "NoteLink",
+    "companyName": "EverBright Apps",
+    "id": 6,
+    "description": "NoteLink is a versatile note-taking app that allows you to capture ideas anytime using text, voice, or handwriting. Sync your notes across devices, organize them into folders, and use smart search to find content instantly. Create lists, sketches, and reminders to stay productive. The app also supports collaboration with colleagues or classmates through shared notes. With cloud backup and secure storage, your information is always safe and accessible. NoteLink empowers users to manage projects, study notes, or creative thoughts efficiently while keeping everything organized in one place.",
+    "size": 27,
+    "reviews": 7600,
+    "ratingAvg": 4.4,
+    "downloads": 9,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 3100 }
+    ]
+  }
+,
+  
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2950/2950657.png",
+    "title": "FinancePro",
+    "companyName": "MoneySync Ltd.",
+    "id": 7,
+    "description": "Track your expenses and manage budgets with visual insights.",
+    "size": 38,
+    "reviews": 8700,
+    "ratingAvg": 4.5,
+    "downloads": 9,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 4000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1116/1116453.png",
+    "title": "WeatherNow",
+    "companyName": "ClimaTech",
+    "id": 8,
+    "description": "Accurate forecasts, radar maps, and severe weather alerts.",
+    "size": 48,
+    "reviews": 16200,
+    "ratingAvg": 4.4,
+    "downloads": 2,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 7600 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/560/560216.png",
+    "title": "GameZone",
+    "companyName": "Arcadia Interactive",
+    "id": 9,
+    "description": "Play and discover trending mobile games with instant access.",
+    "size": 88,
+    "reviews": 38900,
+    "ratingAvg": 4.6,
+    "downloads": 9,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 2800 },
+      { "name": "3 star", "count": 4700 },
+      { "name": "4 star", "count": 10200 },
+      { "name": "5 star", "count": 18600 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1250/1250615.png",
+    "title": "EduSmart",
+    "companyName": "NextGen Learning",
+    "id": 10,
+    "description": "Interactive learning platform with video courses and quizzes.",
+    "size": 95,
+    "reviews": 25200,
+    "ratingAvg": 4.6,
+    "downloads": 3,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 15200 }
+    ]
+  },
+
+
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3022/3022415.png",
+    "title": "LangLearn",
+    "companyName": "EduSphere",
+    "id": 11,
+    "description": "Learn new languages with interactive lessons and speech recognition.",
+    "size": 73,
+    "reviews": 21200,
+    "ratingAvg": 4.5,
+    "downloads": 6,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 11100 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/743/743992.png",
+    "title": "RideFast",
+    "companyName": "UrbanDrive",
+    "id": 12,
+    "description": "Book rides instantly and track drivers in real time.",
+    "size": 59,
+    "reviews": 18500,
+    "ratingAvg": 4.2,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 2200 },
+      { "name": "2 star", "count": 1900 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 4700 },
+      { "name": "5 star", "count": 6500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/JDPdQCS/shophub.jpg",
+    "title": "ShopHub",
+    "companyName": "RetailNext",
+    "id": 13,
+    "description": "Online shopping app offering deals, discounts, and fast delivery.",
+    "size": 83,
+    "reviews": 49200,
+    "ratingAvg": 4.6,
+    "downloads": 1,
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 3100 },
+      { "name": "3 star", "count": 5800 },
+      { "name": "4 star", "count": 11500 },
+      { "name": "5 star", "count": 25200 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3039/3039463.png",
+    "title": "MovieStream",
+    "companyName": "CineVerse",
+    "id": 14,
+    "description": "Watch HD movies and series with personalized recommendations.",
+    "size": 120,
+    "reviews": 74000,
+    "ratingAvg": 4.8,
+    "downloads": 2,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 3100 },
+      { "name": "3 star", "count": 5600 },
+      { "name": "4 star", "count": 12900 },
+      { "name": "5 star", "count": 49900 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/565/565547.png",
+    "title": "SecureVault",
+    "companyName": "CyberNova",
+    "id": 15,
+    "description": "Password manager and secure data storage for all your devices.",
+    "size": 36,
+    "reviews": 6400,
+    "ratingAvg": 4.5,
+    "downloads": 9,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 2700 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3031/3031477.png",
+    "title": "HomePlanner",
+    "companyName": "DesignCraft",
+    "id": 16,
+    "description": "Create 3D home layouts and visualize interior design ideas easily.",
+    "size": 98,
+    "reviews": 9800,
+    "ratingAvg": 4.4,
+    "downloads": 1,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 3900 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+    "title": "ChatEase",
+    "companyName": "NovaTech",
+    "id": 17,
+    "description": "A simple and secure chat app with end-to-end encryption and cloud backup.",
+    "size": 45,
+    "reviews": 18500,
+    "ratingAvg": 4.5,
+    "downloads": 1,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 9100 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/685/685655.png",
+    "title": "PhotoCraft",
+    "companyName": "PixelForge Studios",
+    "id": 18,
+    "description": "Edit, filter, and enhance your photos with powerful AI tools.",
+    "size": 78,
+    "reviews": 23000,
+    "ratingAvg": 4.7,
+    "downloads": 2,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 13200 }
+    ]
+    
+  }
+]
+
