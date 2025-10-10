@@ -1,16 +1,25 @@
-# React + Vite
+# HERO.IO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Developed by Mijanur Rahman Oli
 
-Currently, two official plugins are available:
+## Description
+HERO.IO is a modern web application that showcases productive apps developed by our team. Users can browse trending apps, view detailed product information, search for apps, and manage installed applications. The platform emphasizes ease of use, interactive UI, and full responsiveness across devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Key Features:
+- Browse trending and all apps
+- View detailed app information with charts and reviews
+- Search and filter apps
+- Install and uninstall apps
+- Sort installed apps by downloads
+- Fully responsive design for mobile and desktop
+- Smooth loading animations for data fetching and search
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+- **React.js** - Frontend UI library
+- **React Router v6** - Client-side routing
+- **Tailwind CSS** - Styling and responsive design
+- **Axios** - API requests / JSON data fetching
+- **React Toastify** - Notification popups
+- **Recharts** - Charts for app ratings and reviews
+- **LocalStorage** - Persistent storage for installed apps
+- **Vite** - Development and build tooling
