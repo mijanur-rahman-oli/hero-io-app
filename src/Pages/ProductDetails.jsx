@@ -56,8 +56,8 @@ const ProductDetails = () => {
   };
 
   return (
-    <div className="px-4 sm:px-6 md:px-8 lg:px-12 py-6 space-y-8">
-      {/* Product Info */}
+    <div className="px-4 sm:px-6 md:px-8 lg:px-12 py-10 space-y-8">
+    
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 border-b border-gray-300 pb-8">
         <div className="lg:col-span-1">
           <img
@@ -68,12 +68,12 @@ const ProductDetails = () => {
         </div>
 
         <div className="lg:col-span-2 space-y-4">
-          <h2 className="text-3xl font-bold">{product.title}</h2>
+          <h2 className="text-3xl font-bold ">{product.title}</h2>
           <div className="border-b border-gray-300 pb-2">
             Developed by <span className="text-purple-700 font-medium">{product.companyName}</span>
           </div>
 
-          {/* Stats */}
+    
           <div className="flex flex-wrap gap-4">
             <div className="flex items-center gap-2 bg-gray-50 px-4 py-2 rounded-lg shadow-sm">
               <img src={downIcon} alt="downloads" className="w-6 h-6" />
@@ -100,7 +100,7 @@ const ProductDetails = () => {
             </div>
           </div>
 
-          {/* Install Button */}
+      
           <button
             onClick={handleInstall}
             disabled={installed}
@@ -113,7 +113,7 @@ const ProductDetails = () => {
         </div>
       </div>
 
-      {/* Reviews Chart */}
+   
       {product.ratings && product.ratings.length > 0 && (
         <div className="w-full border-b border-gray-300 pb-6">
           <h3 className="text-2xl font-bold mb-2">Reviews Chart</h3>
@@ -132,7 +132,7 @@ const ProductDetails = () => {
         </div>
       )}
 
-      {/* Description */}
+     
       <div className="pt-6">
         <h3 className="text-2xl font-bold mb-2">Description</h3>
         <p className="text-gray-600">{product.description}</p>

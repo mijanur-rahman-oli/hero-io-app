@@ -14,9 +14,9 @@ const Home = () => {
   if (error) return <p className="text-red-500 text-center py-8">{error.message}</p>;
 
   return (
-    <div className="space-y-12">
-      {/* Hero Section */}
-      <div className="text-center pt-12 rounded-lg">
+    <div>
+    
+      <div className="text-center pt-12 space-y-10 rounded-lg">
         <h1 className="text-3xl md:text-6xl font-bold mb-4">
           We Build
           <div>
@@ -33,7 +33,7 @@ const Home = () => {
           <a
             href="https://play.google.com/store"
             target="_blank"
-            className="px-4 py-2 border border-gray-400 text-black font-semibold rounded-md flex items-center gap-3"
+            className="px-4 py-2 border bg-white border-gray-400 text-black font-semibold rounded-md flex items-center gap-3"
           >
             <img src={googlePlay} alt="Google Play" className="w-6 h-6" /> Google Play
           </a>
@@ -41,20 +41,21 @@ const Home = () => {
           <a
             href="https://www.apple.com/app-store/"
             target="_blank"
-            className="px-4 py-2 border border-gray-400 text-black font-semibold rounded-md flex items-center gap-3"
+            className="px-4 py-2 border bg-white border-gray-400 text-black font-semibold rounded-md flex items-center gap-3"
           >
             <img src={appStore} alt="App Store" className="w-6 h-6" /> App Store
           </a>
         </div>
 
-        <img
-          src={heroPng}
-          alt="Hero Banner"
-          className="w-full max-w-5xl mx-auto h-auto px-4 object-contain"
-        />
+     
       </div>
 
-      {/* Stats Section */}
+   <img
+          src={heroPng}
+          alt="Hero Banner"
+          className="w-full max-w-5xl mx-auto h-auto px-4 object-contain pt-8"
+        />
+     
       <div className="w-screen relative left-1/2 -translate-x-1/2 bg-gradient-to-r from-purple-700 to-purple-400 py-14">
         <h2 className="text-3xl md:text-4xl text-white font-bold text-center pb-8">
           Trusted by Millions, Built for You
@@ -78,8 +79,8 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Trending Apps */}
-      <div className="flex flex-col items-center space-y-6">
+    
+      <div className="flex flex-col items-center  pt-12 space-y-8 ">
         <h2 className="text-3xl font-bold text-center">Trending Apps</h2>
         <p className="text-gray-600 text-center">
           Explore all trending apps on the market developed by us

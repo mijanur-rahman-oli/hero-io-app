@@ -9,7 +9,7 @@ const useAppList = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get("/appList.json") // must be in public folder
+      .get("/appList.json") 
       .then((res) => setProducts(res.data))
       .catch((err) =>
         setError({ message: err.message || "Failed to load app data" })

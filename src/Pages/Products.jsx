@@ -10,7 +10,7 @@ const Products = () => {
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [isSearching, setIsSearching] = useState(false);
 
-  // Filter products based on search term
+
   useEffect(() => {
     setIsSearching(true);
 
@@ -23,24 +23,26 @@ const Products = () => {
 
     setFilteredProducts(filtered);
 
-    // simulate loading animation delay for search
+ 
     const timer = setTimeout(() => setIsSearching(false), 300);
     return () => clearTimeout(timer);
   }, [search, products]);
 
   if (error)
+    
     return (
       <p className="text-red-500 text-center py-8">{error.message}</p>
     );
 
   return (
-    <div className="max-w-[1340px] mx-auto space-y-6">
-      <div className="text-center pt-6">
-        <h1 className="text-3xl font-semibold">Our Applications</h1>
+   <div className="max-w-[1340px] mx-auto space-y-6 px-8 md:px-4 lg:px-0">
+      
+      <div className="text-center pt-6 space-y-2">
+        <h1 className="text-3xl font-semibold pt-6">Our Applications</h1>
         <p className="text-gray-600">Explore all apps developed by us.</p>
       </div>
 
-      {/* Search bar */}
+    
       <div className="flex justify-between items-center py-5">
         <span className="text-xl font-bold text-black">
           ({filteredProducts.length}) Apps Found
@@ -54,7 +56,7 @@ const Products = () => {
         />
       </div>
 
-      {/* Product grid / loader */}
+  
       {loading || isSearching ? (
         <SkeletonLoader count={16} />
       ) : filteredProducts.length > 0 ? (
