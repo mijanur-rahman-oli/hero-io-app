@@ -11,9 +11,7 @@ const RootLayout = () => {
     <div className="flex flex-col min-h-screen bg-gray-100">
       <Navbar />
       <main
-        className={`flex-grow px-4 py-6 ${
-          isDetailsPage ? "" : "container mx-auto"
-        }`}
+        className={`flex-grow px-4 py-6 ${isDetailsPage ? "" : "container mx-auto"}`}
       >
         <Outlet />
       </main>

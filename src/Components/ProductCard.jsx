@@ -23,16 +23,15 @@ const ProductCard = ({ product, onUninstall }) => {
           </div>
           <div className="flex justify-between items-center mt-2">
             <div className="text-sm bg-[#F1F5E8] px-2 py-1 text-green-400 flex items-center gap-1 rounded-xl">
-              <img src={downIcon} alt="" className="w-4 h-4" />
+              <img src={downIcon} alt="downloads" className="w-4 h-4" />
               {downloads}M
             </div>
             <div className="text-sm bg-[#FFF0E1] px-2 py-1 text-yellow-500 font-medium flex items-center gap-1 rounded-xl">
-              <img src={ratingIcon} alt="" className="w-4 h-4" />
+              <img src={ratingIcon} alt="rating" className="w-4 h-4" />
               {ratingAvg.toFixed(1)}
             </div>
           </div>
 
-          {/* Uninstall Button */}
           {onUninstall && (
             <button
               onClick={() => onUninstall(product.id)}
@@ -48,4 +47,3 @@ const ProductCard = ({ product, onUninstall }) => {
 };
 
 export default ProductCard;
-
