@@ -4,6 +4,8 @@ import useAppList from "../Hooks/useAppList";
 import googlePlay from "../assets/googlePlay.png";
 import appStore from "../assets/appStore.png";
 import heroPng from "../assets/hero.png";
+import ProductCard from "../Components/ProductCard";
+import SkeletonLoader from "../Components/SkeletonLoader";
 
 
 const Home = () => {
@@ -91,7 +93,17 @@ const Home = () => {
 
       </div>
       <div className="flex flex-col items-center space-y-6">
-    {/* here */}
+     
+      {loading ? (
+          <SkeletonLoader count={8} />
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+            {featuredProducts.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
+        )} 
+
         <Link
           className="px-4 py-2 border border-gray-400 rounded bg-[linear-gradient(125.07deg,#632ee3,#9f62f2_100%)] text-white hover:bg-gray-100 "
           to="/apps"
