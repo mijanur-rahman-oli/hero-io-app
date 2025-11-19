@@ -9,7 +9,7 @@ HERO.IO is a modern and interactive web application that showcases a collection 
 
 ## 🌐 **Live Demo**
 
-**Live Link:** *[Add your live link here](https://guileless-caramel-726032.netlify.app/)*
+**Live Link:** *[Hero IO App](https://guileless-caramel-726032.netlify.app/)*
 
 ---
 
